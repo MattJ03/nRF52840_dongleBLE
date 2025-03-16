@@ -1,0 +1,1 @@
+"nrf":"/home/matt/Downloads/ncs/nrf":"/home/matt/Downloads/ncs/nrf/sysbuild"
