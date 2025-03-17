@@ -35,4 +35,3 @@ void main(void) {
 
     printk("Beacon is now advertising!\n");
 }
-}
