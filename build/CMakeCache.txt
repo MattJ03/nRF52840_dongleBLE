@@ -226,7 +226,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=blinky
+CMAKE_PROJECT_NAME:STATIC=my_project
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=3.4.99
@@ -403,13 +403,13 @@ ZephyrBuildConfiguration_DIR:PATH=/home/matt/Downloads/ncs/nrf/share/zephyrbuild
 Zephyr_DIR:PATH=/home/matt/Downloads/ncs/zephyr/share/zephyr-package/cmake
 
 //Value Computed by CMake
-blinky_BINARY_DIR:STATIC=/home/matt/Downloads/ncs/zephyr/samples/my_project/build
+my_project_BINARY_DIR:STATIC=/home/matt/Downloads/ncs/zephyr/samples/my_project/build
 
 //Value Computed by CMake
-blinky_IS_TOP_LEVEL:STATIC=ON
+my_project_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-blinky_SOURCE_DIR:STATIC=/home/matt/Downloads/ncs/zephyr/samples/my_project
+my_project_SOURCE_DIR:STATIC=/home/matt/Downloads/ncs/zephyr/samples/my_project
 
 
 ########################
