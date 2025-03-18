@@ -1,7 +1,7 @@
 #include <zephyr/types.h>
 #include <stdio.h>
 #include <stddef.h>
-#include <sys/printk.h>
+#include <zephyr/sys/printk.h>
 #include <bluetooth/blutetooth.h>
 #include <bluetooth/hci.h>
 

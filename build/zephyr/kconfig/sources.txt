@@ -318,9 +318,9 @@
 /home/matt/Downloads/ncs/zephyr/arch/arm/core/aarch32/mpu/Kconfig
 /home/matt/Downloads/ncs/zephyr/arch/common/Kconfig
 /home/matt/Downloads/ncs/zephyr/boards/Kconfig
-/home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dongle_nrf52840/Kconfig
-/home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dongle_nrf52840/Kconfig.board
-/home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dongle_nrf52840/Kconfig.defconfig
+/home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dk_nrf52840/Kconfig
+/home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dk_nrf52840/Kconfig.board
+/home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dk_nrf52840/Kconfig.defconfig
 /home/matt/Downloads/ncs/zephyr/boards/shields/adafruit_2_8_tft_touch_v2/Kconfig.defconfig
 /home/matt/Downloads/ncs/zephyr/boards/shields/adafruit_2_8_tft_touch_v2/Kconfig.shield
 /home/matt/Downloads/ncs/zephyr/boards/shields/adafruit_data_logger/Kconfig.shield
@@ -1509,10 +1509,10 @@
 /home/matt/Downloads/ncs/zephyr/modules/trusted-firmware-m/Kconfig.tfm.partitions
 /home/matt/Downloads/ncs/zephyr/modules/uoscore-uedhoc/Kconfig
 /home/matt/Downloads/ncs/zephyr/modules/zcbor/Kconfig
-/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/Kconfig/Kconfig.dts
-/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/Kconfig/Kconfig.modules
-/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/Kconfig/Kconfig.shield
-/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/Kconfig/Kconfig.shield.defconfig
+/home/matt/Downloads/ncs/zephyr/samples/my_project/build/Kconfig/Kconfig.dts
+/home/matt/Downloads/ncs/zephyr/samples/my_project/build/Kconfig/Kconfig.modules
+/home/matt/Downloads/ncs/zephyr/samples/my_project/build/Kconfig/Kconfig.shield
+/home/matt/Downloads/ncs/zephyr/samples/my_project/build/Kconfig/Kconfig.shield.defconfig
 /home/matt/Downloads/ncs/zephyr/soc/Kconfig
 /home/matt/Downloads/ncs/zephyr/soc/arm/Kconfig
 /home/matt/Downloads/ncs/zephyr/soc/arm/ambiq/Kconfig
@@ -2464,4 +2464,4 @@
 /home/matt/Downloads/ncs/zephyr/subsys/usb/host/Kconfig
 /home/matt/Downloads/ncs/zephyr/subsys/usb/usb_c/Kconfig
 /home/matt/Downloads/ncs/zephyr/subsys/zbus/Kconfig
-/home/matt/ncs/toolchains/b77d8c1312/opt/zephyr-sdk/cmake/zephyr/Kconfig
+/home/matt/Downloads/zephyr-sdk-0.16.4/cmake/zephyr/Kconfig

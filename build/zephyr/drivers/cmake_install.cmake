@@ -34,66 +34,71 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/matt/ncs/toolchains/b77d8c1312/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
+  set(CMAKE_OBJDUMP "/home/matt/Downloads/zephyr-sdk-0.16.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/disk/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/disk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/misc/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/misc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/pcie/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/pcie/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/usb/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/usb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/usb_c/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/usb_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/clock_control/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/clock_control/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/gpio/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/hwinfo/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/entropy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/pinctrl/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/serial/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/pinctrl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/zephyr/drivers/timer/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/serial/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/zephyr/drivers/timer/cmake_install.cmake")
 endif()
 

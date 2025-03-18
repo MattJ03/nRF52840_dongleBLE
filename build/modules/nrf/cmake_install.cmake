@@ -34,41 +34,41 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/matt/ncs/toolchains/b77d8c1312/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
+  set(CMAKE_OBJDUMP "/home/matt/Downloads/zephyr-sdk-0.16.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/modules/nrf/ext/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/modules/nrf/ext/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/modules/nrf/lib/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/modules/nrf/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/modules/nrf/samples/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/modules/nrf/samples/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/modules/nrf/subsys/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/modules/nrf/subsys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/modules/nrf/modules/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/modules/nrf/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/modules/nrf/drivers/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/modules/nrf/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/matt/Downloads/ncs/zephyr/samples/basic/blinky/build/modules/nrf/tests/cmake_install.cmake")
+  include("/home/matt/Downloads/ncs/zephyr/samples/my_project/build/modules/nrf/tests/cmake_install.cmake")
 endif()
 

@@ -1,5 +1,5 @@
 empty_file.o: /home/matt/Downloads/ncs/zephyr/misc/empty_file.c \
- /home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dongle_nrf52840/nrf52840dongle_nrf52840.dts \
+ /home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dk_nrf52840/nrf52840dk_nrf52840.dts \
  /home/matt/Downloads/ncs/zephyr/dts/arm/nordic/nrf52840_qiaa.dtsi \
  /home/matt/Downloads/ncs/zephyr/dts/common/mem.h \
  /home/matt/Downloads/ncs/zephyr/dts/arm/nordic/nrf52840.dtsi \
@@ -18,6 +18,5 @@ empty_file.o: /home/matt/Downloads/ncs/zephyr/misc/empty_file.c \
  /home/matt/Downloads/ncs/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
  /home/matt/Downloads/ncs/zephyr/dts/common/freq.h \
  /home/matt/Downloads/ncs/zephyr/dts/arm/nordic/override.dtsi \
- /home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dongle_nrf52840/nrf52840dongle_nrf52840-pinctrl.dtsi \
- /home/matt/Downloads/ncs/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
- /home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dongle_nrf52840/fstab-stock.dtsi
+ /home/matt/Downloads/ncs/zephyr/boards/arm/nrf52840dk_nrf52840/nrf52840dk_nrf52840-pinctrl.dtsi \
+ /home/matt/Downloads/ncs/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h
