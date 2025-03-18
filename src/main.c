@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <zephyr/sys/printk.h>
-#include <bluetooth/blutetooth.h>
+#include <bluetooth/bluetooth.h>
 #include <bluetooth/hci.h>
 
 void main(void) {
